@@ -34,7 +34,7 @@ a {
     z-index: 100;
     opacity: 0;
     animation: show-content 1.5s linear forwards;
-    animation-delay: 1.2s;
+    animation-delay: 0.1s;
 }
 
 /* Navbar animation */
@@ -95,11 +95,12 @@ a {
 .maindiv .content {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     /* Set width for consistency */
 }
 
 .maindiv .content .box {
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -117,16 +118,31 @@ a {
 .maindiv .content p {
     margin: 5px 0 40px;
     /* Simplified margin property */
-    font-size: x-large;
-    color: white;
+    font-size:22px;
+    color: rgb(232, 197, 197);
 }
 
 .maindiv .content #h {
     color: red;
     margin-bottom: 10px;
 }
-.maindiv .content .box .high{
-    display: flex;
+.maindiv .content .box h2{
+    font-weight:500;
     
-    
+    color: white;
+}
+.maindiv .content .box  h2{
+    margin-bottom: 10px;
+
+}
+.maindiv .content .box h1 {
+    color: #7cf03d;
+    margin-bottom: 10px;
+
+}
+.navbar ul li a:hover {
+    color: #7cf03d;
+    /* Existing hover color */
+    text-shadow: 0 0 5px rgba(124, 240, 61, 0.7);
+    /* Subtle glow effect */
 }

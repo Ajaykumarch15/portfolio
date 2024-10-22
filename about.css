@@ -95,7 +95,7 @@ a {
 .maindiv .content {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 100%;
     /* Set width for consistency */
 }
 
